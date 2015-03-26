@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{bcd23871-8edb-4514-ba9d-4dd5285e52c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\atomic">
+      <UniqueIdentifier>{9e772268-d8d2-47c5-a0c3-73d0504e6288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{a997d7fe-c4eb-4d50-9ad3-867a1c87dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{654505fe-f8e4-4df5-8820-103aafb3451e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\software">
+      <UniqueIdentifier>{0142f2ed-be09-45f2-8d1c-8a85f4e18d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video">
+      <UniqueIdentifier>{18183f2f-6253-4d1b-8ab7-9f87375d7785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\events">
+      <UniqueIdentifier>{f4336824-6812-4cff-b12a-22ebcec2a9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cpuinfo">
+      <UniqueIdentifier>{88aa300b-9ffb-4d0e-bdcf-21efb558fa28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\joystick">
+      <UniqueIdentifier>{5bd1b440-3f1b-4521-b223-5977e8ab8b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\joystick\windows">
+      <UniqueIdentifier>{8fdad0ef-a83c-4860-9214-12595c372fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\disk">
+      <UniqueIdentifier>{2c1357fd-e779-4f9a-a28b-94cf2ab4d711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\dummy">
+      <UniqueIdentifier>{23986f26-bd99-4358-b87c-690a01aa9712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dynapi">
+      <UniqueIdentifier>{8f280f08-f478-4946-ae64-70e5b216c3df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\stdlib">
+      <UniqueIdentifier>{757bb72f-d29d-44d2-bcb2-bdf2fc11d5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic">
+      <UniqueIdentifier>{61aa755c-b9e2-4adc-aafe-6153c8f2a9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video\dummy">
+      <UniqueIdentifier>{4f8b6dc2-c75d-4eff-b197-10a2f5aac296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power">
+      <UniqueIdentifier>{572e46ed-d6fc-4805-b5da-d059b21c5020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\direct3d11">
+      <UniqueIdentifier>{c34ebb00-3331-4cef-9efe-4416963e6e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\opengles2">
+      <UniqueIdentifier>{f42a0001-a9a4-4226-b34d-e2a2832d1cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file">
+      <UniqueIdentifier>{ae12ca3f-1ee3-47c2-9782-970985d7b53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{92127bac-e2f1-4b74-8c79-d3173f6aa113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{70033d51-baf4-4d07-ac2a-0c96e51b4884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem\winrt">
+      <UniqueIdentifier>{d6b520a3-0901-4503-bfed-6d6a74542693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic\dummy">
+      <UniqueIdentifier>{3e960d94-c707-439a-bdd7-2d13c8913094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\joystick\dummy">
+      <UniqueIdentifier>{7247605f-9ea3-47fd-9053-6489346cfc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\loadso">
+      <UniqueIdentifier>{6f67e6a8-355b-4124-8063-f8d4da9c5ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\loadso\windows">
+      <UniqueIdentifier>{740857ab-7677-4f57-9c31-4884aa82fa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\sdtcpp">
+      <UniqueIdentifier>{1fe18e47-5a7c-43f0-8b36-09f37792a12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power\winrt">
+      <UniqueIdentifier>{b60d64d6-e7bb-438f-9362-22add7ccae00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\generic">
+      <UniqueIdentifier>{94d850b6-40a5-45d0-8390-b69dd34bc8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timer">
+      <UniqueIdentifier>{4ec63fb0-036f-41ad-baff-b4fbe752b255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timer\windows">
+      <UniqueIdentifier>{51908d08-50b9-4924-bbf0-cb4e00f5a2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{401c46e8-7fd6-4f40-a21b-dd0e9c12c2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\windows">
+      <UniqueIdentifier>{33e12509-f7cd-4b7f-9c01-ad5c675bb1c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\winrt">
+      <UniqueIdentifier>{61000abb-4b7f-4634-8539-a568b362499c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video\winrt">
+      <UniqueIdentifier>{b3bcf393-9686-4a42-b004-f890993c9194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\xaudio2">
+      <UniqueIdentifier>{e9fc803f-6b24-40e5-823a-b1824507db22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic\windows">
+      <UniqueIdentifier>{a7e564f1-07c1-4221-958b-c2cdf4b3f7a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL_assert.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\atomic\SDL_atomic.c">
+      <Filter>Source Files\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_audio.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_audiocvt.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_audiodev.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_audiotypecvt.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_blendfillrect.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_blendline.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_drawpoint.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_blendpoint.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_0.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_1.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_A.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_auto.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_copy.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_N.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_blit_slow.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_bmp.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_clipboard.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_clipboardevents.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\cpuinfo\SDL_cpuinfo.c">
+      <Filter>Source Files\cpuinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_d3dmath.c">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\windows\SDL_dinputjoystick.c">
+      <Filter>Source Files\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\disk\SDL_diskaudio.c">
+      <Filter>Source Files\audio\disk</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_drawline.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_dropevents.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\dummy\SDL_dummyaudio.c">
+      <Filter>Source Files\audio\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\dynapi\SDL_dynapi.c">
+      <Filter>Source Files\dynapi</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_egl.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL_error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_events.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_fillrect.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\SDL_gamecontroller.c">
+      <Filter>Source Files\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_gesture.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_getenv.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\SDL_haptic.c">
+      <Filter>Source Files\haptic</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL_hints.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_iconv.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\SDL_joystick.c">
+      <Filter>Source Files\joystick</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_keyboard.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL_log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_malloc.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_mixer.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_mouse.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\dummy\SDL_nullevents.c">
+      <Filter>Source Files\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\dummy\SDL_nullframebuffer.c">
+      <Filter>Source Files\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\dummy\SDL_nullvideo.c">
+      <Filter>Source Files\video\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_pixels.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\power\SDL_power.c">
+      <Filter>Source Files\power</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_qsort.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_quit.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_rect.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_render.c">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\direct3d11\SDL_render_d3d11.c">
+      <Filter>Source Files\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\opengles2\SDL_render_gles2.c">
+      <Filter>Source Files\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_render_sw.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\direct3d11\SDL_render_winrt.cpp">
+      <Filter>Source Files\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_RLEaccel.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_rotate.c">
+      <Filter>Source Files\render\software</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\file\SDL_rwops.c">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\opengles2\SDL_shaders_gles2.c">
+      <Filter>Source Files\render\opengles2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_shape.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\atomic\SDL_spinlock.c">
+      <Filter>Source Files\atomic</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_stdlib.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_stretch.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\stdlib\SDL_string.c">
+      <Filter>Source Files\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_surface.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\filesystem\winrt\SDL_sysfilesystem.cpp">
+      <Filter>Source Files\filesystem\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\dummy\SDL_syshaptic.c">
+      <Filter>Source Files\haptic\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\dummy\SDL_sysjoystick.c">
+      <Filter>Source Files\joystick\dummy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\loadso\windows\SDL_sysloadso.c">
+      <Filter>Source Files\loadso\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_sysmutex.cpp">
+      <Filter>Source Files\thread\sdtcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_syscond.cpp">
+      <Filter>Source Files\thread\sdtcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\power\winrt\SDL_syspower.cpp">
+      <Filter>Source Files\power\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\generic\SDL_syssem.c">
+      <Filter>Source Files\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_systhread.cpp">
+      <Filter>Source Files\thread\sdtcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\timer\windows\SDL_systimer.c">
+      <Filter>Source Files\timer\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\SDL_thread.c">
+      <Filter>Source Files\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\timer\SDL_timer.c">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_touch.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_video.c">
+      <Filter>Source Files\video</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\SDL_wave.c">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\events\SDL_windowevents.c">
+      <Filter>Source Files\events</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\windows\SDL_windows.c">
+      <Filter>Source Files\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\windows\SDL_windowsjoystick.c">
+      <Filter>Source Files\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_common.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_direct3d.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_xaml.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtevents.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtkeyboard.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmessagebox.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmouse.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtopengles.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtpointerinput.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtvideo.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2.c">
+      <Filter>Source Files\audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2_winrthelpers.cpp">
+      <Filter>Source Files\audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\windows\SDL_xinput.c">
+      <Filter>Source Files\core\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\windows\SDL_xinputjoystick.c">
+      <Filter>Source Files\joystick\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_yuv_mmx.c">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_yuv_sw.c">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
