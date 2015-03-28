@@ -59,9 +59,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\file\SDL_rwops.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\dummy\SDL_syshaptic.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\SDL_haptic.c" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\dummy\SDL_sysjoystick.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\SDL_gamecontroller.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\SDL_joystick.c" />

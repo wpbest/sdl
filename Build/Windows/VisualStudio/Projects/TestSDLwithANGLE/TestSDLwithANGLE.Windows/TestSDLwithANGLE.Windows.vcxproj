@@ -180,6 +180,12 @@
     <Image Include="Assets\SplashScreen.scale-100.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\libEGL\libEGL.Windows\libEGL.Windows.vcxproj">
+      <Project>{5055dbc6-7ca5-4044-bfbc-5bff1f3ef3e5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\libGLESv2\libGLESv2.Windows\libGLESv2.Windows.vcxproj">
+      <Project>{185c7637-f1cf-4884-aa3b-2b89d578907a}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\SDL\SDL.Windows\SDL.Windows.vcxproj">
       <Project>{6eec7359-ba8e-4130-b64d-fd4a58af3edb}</Project>
     </ProjectReference>

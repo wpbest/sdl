@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\main.cpp">
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\SDL_winrt_main_NonXAML.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\SDL_winrt_main_NonXAML.cpp">
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\sdl2gles2gears.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

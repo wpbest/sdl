@@ -25,12 +25,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainPage.xaml.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MainPage.xaml.h" />
-  </ItemGroup>
-  <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
   </ItemGroup>
 </Project>

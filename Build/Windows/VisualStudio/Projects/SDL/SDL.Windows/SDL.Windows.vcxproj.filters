@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-	</ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b46545a6-3e76-420d-a764-3f3933ef1a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic">
+      <UniqueIdentifier>{bce5ca75-ba5b-4e04-be2e-e8499b13d5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic\windows">
+      <UniqueIdentifier>{8e7188f0-2df6-47b3-bf9c-3e64a73c5d83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

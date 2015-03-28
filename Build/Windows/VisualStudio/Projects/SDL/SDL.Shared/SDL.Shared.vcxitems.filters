@@ -112,9 +112,6 @@
     <Filter Include="Source Files\audio\xaudio2">
       <UniqueIdentifier>{e9fc803f-6b24-40e5-823a-b1824507db22}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\haptic\windows">
-      <UniqueIdentifier>{a7e564f1-07c1-4221-958b-c2cdf4b3f7a1}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\SDL.c">
@@ -425,15 +422,6 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_yuv_sw.c">
       <Filter>Source Files\render</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c">
-      <Filter>Source Files\haptic\windows</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c">
-      <Filter>Source Files\haptic\windows</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c">
-      <Filter>Source Files\haptic\windows</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -47,8 +47,19 @@
 
 #elif SDL_VIDEO_DRIVER_WINDOWS || SDL_VIDEO_DRIVER_WINRT
 /* EGL AND OpenGL ES support via ANGLE */
+/* WPB */
+/*
 #define DEFAULT_EGL "libEGL.dll"
 #define DEFAULT_OGL_ES2 "libGLESv2.dll"
+*/
+#if WINAPI_FAMILY == WINAPI_FAMILY_PHONE_APP
+#define DEFAULT_EGL "libEGL.WindowsPhone.dll"
+#define DEFAULT_OGL_ES2 "libGLESv2.WindowsPhone.dll"
+#else
+#define DEFAULT_EGL "libEGL.Windows.dll"
+#define DEFAULT_OGL_ES2 "libGLESv2.Windows.dll"
+#endif
+
 #define DEFAULT_OGL_ES_PVR "libGLES_CM.dll"
 #define DEFAULT_OGL_ES "libGLESv1_CM.dll"
 
@@ -173,8 +184,13 @@ SDL_EGL_LoadLibrary(_THIS, const char *egl_path, NativeDisplayType native_displa
     d3dcompiler = SDL_GetHint(SDL_HINT_VIDEO_WIN_D3DCOMPILER);
     if (!d3dcompiler) {
         if (WIN_IsWindowsVistaOrGreater()) {
+            /*
+            WPB
             d3dcompiler = "d3dcompiler_46.dll";
-        } else {
+            */
+            d3dcompiler = "d3dcompiler_47.dll";
+        }
+        else {
             d3dcompiler = "d3dcompiler_43.dll";
         }
     }

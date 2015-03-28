@@ -26,6 +26,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c" />
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c" />
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6eec7359-ba8e-4130-b64d-fd4a58af3edb}</ProjectGuid>
     <RootNamespace>SDL</RootNamespace>

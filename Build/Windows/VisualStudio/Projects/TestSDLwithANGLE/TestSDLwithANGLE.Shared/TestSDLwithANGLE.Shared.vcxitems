@@ -16,7 +16,9 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\sdl2gles2gears.cpp">
+      <CompileAsWinRT>true</CompileAsWinRT>
+    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\SDL_winrt_main_NonXAML.cpp" />
   </ItemGroup>
 </Project>
