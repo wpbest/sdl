@@ -10,6 +10,48 @@
     <Filter Include="Source Files\haptic\windows">
       <UniqueIdentifier>{8e7188f0-2df6-47b3-bf9c-3e64a73c5d83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{7fad6d33-f2e9-4964-81eb-4dc9838c3903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\xaudio2">
+      <UniqueIdentifier>{982f30f9-710b-4e27-a18d-ac06547890d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{9a7a23ca-4d24-46be-a196-acf26d37cc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\winrt">
+      <UniqueIdentifier>{99aca762-995b-4f56-8902-9d0cdf16fd9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video">
+      <UniqueIdentifier>{3d1b37e2-2c5f-4a9a-b14e-4f4082f2a815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video\winrt">
+      <UniqueIdentifier>{15de7b14-afe7-44a5-a87e-fcb0cf37f557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{9718cc57-24f4-44b6-a591-ebff14daf683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\direct3d11">
+      <UniqueIdentifier>{15b49fea-7741-4a08-8448-3c3e189215f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{f67d277d-ea13-4608-a904-67ccfeee913a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem\winrt">
+      <UniqueIdentifier>{568bb888-ca54-428f-82d3-3a5fc8a4f0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power">
+      <UniqueIdentifier>{737c3501-251b-4216-aa75-0f4549935b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power\winrt">
+      <UniqueIdentifier>{0ec7a704-eee1-41fd-898a-81f8b479dc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{ed588de9-11be-45e4-9ed5-0b6f9099c86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\stdcpp">
+      <UniqueIdentifier>{64a3fcfd-3278-4ca1-88b6-e97c39806890}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c">
@@ -20,6 +62,57 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c">
       <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2_winrthelpers.cpp">
+      <Filter>Source Files\audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_common.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_direct3d.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_xaml.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtevents.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtkeyboard.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmessagebox.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmouse.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtopengles.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtpointerinput.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtvideo.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\render\direct3d11\SDL_render_winrt.cpp">
+      <Filter>Source Files\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\filesystem\winrt\SDL_sysfilesystem.cpp">
+      <Filter>Source Files\filesystem\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\power\winrt\SDL_syspower.cpp">
+      <Filter>Source Files\power\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_syscond.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_sysmutex.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_systhread.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

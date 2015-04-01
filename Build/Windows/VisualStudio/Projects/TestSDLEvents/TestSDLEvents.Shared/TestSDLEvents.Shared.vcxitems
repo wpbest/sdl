@@ -3,9 +3,9 @@
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>ed0b55d0-2099-41ae-aebd-d282dce9894c</SharedGUID>
-    <ItemsProjectGuid>{814bfafb-7a19-41ba-a099-379a7f75e5c5}</ItemsProjectGuid>
-    <ItemsRootNamespace>TestSDLwithANGLE</ItemsRootNamespace>
+    <SharedGUID>0c993d5c-523f-4454-8f93-56d9eafaba1c</SharedGUID>
+    <ItemsProjectGuid>{427681fb-99f3-43db-8ba5-e83d8897b3f0}</ItemsProjectGuid>
+    <ItemsRootNamespace>TestSDLEvents</ItemsRootNamespace>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -16,8 +16,7 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLwithANGLE\sdl2gles2gears.cpp">
-      <CompileAsWinRT>false</CompileAsWinRT>
-    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLEvents\SDL_windows_main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\TestSDLEvents\TestEvents.cpp" />
   </ItemGroup>
 </Project>

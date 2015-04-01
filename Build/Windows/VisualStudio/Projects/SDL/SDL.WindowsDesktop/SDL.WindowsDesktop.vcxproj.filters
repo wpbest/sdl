@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{0148311b-99c0-476d-9229-3179a82b58b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\windows">
+      <UniqueIdentifier>{706f2ec3-3719-4330-9ad7-6b65bdd63002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libm">
+      <UniqueIdentifier>{e08bba4c-d474-46bd-9629-78f0e35c22f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{404b4942-ed65-4972-83da-207a52b725b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\direct3d">
+      <UniqueIdentifier>{0c97eb74-c934-484e-aea8-dec90fa47de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power">
+      <UniqueIdentifier>{76cab28e-25d5-4f8a-a0d1-e42637cf2d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power\windows">
+      <UniqueIdentifier>{d1eb25ca-2812-43f3-add8-7c7c99f57a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{b159ad7f-8a80-4054-80cb-e6187183b4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem\windows">
+      <UniqueIdentifier>{3c497ff6-59ef-4799-b387-4750db20ce26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic">
+      <UniqueIdentifier>{b523e14b-a7b8-47d7-bf17-8ca365c6ee6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\haptic\windows">
+      <UniqueIdentifier>{e5e26934-1f1c-40a0-ae6a-6b1b62749c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video">
+      <UniqueIdentifier>{fa408fe7-2970-4ff0-baec-3156e95c0016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video\windows">
+      <UniqueIdentifier>{6b1d8c21-8947-4a95-a830-87631b278871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\opengl">
+      <UniqueIdentifier>{ecba1c07-4f20-4d55-a62b-48269e7b12e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\generic">
+      <UniqueIdentifier>{923e331f-0fcd-45a7-b473-49a1b4dd051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{6d9e306c-3591-4c7b-8b4c-e531bc5a5074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\directsound">
+      <UniqueIdentifier>{3e486759-fed0-4040-b567-18d6b9de0f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\winmm">
+      <UniqueIdentifier>{ded3584f-727c-4669-bcac-f3e95fccc6ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\windows\SDL_sysmutex.c">
+      <Filter>Source Files\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\windows\SDL_systhread.c">
+      <Filter>Source Files\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\windows\SDL_systls.c">
+      <Filter>Source Files\thread\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\e_atan2.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\e_log.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\e_pow.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\e_rem_pio2.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\e_sqrt.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\k_cos.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\k_rem_pio2.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\k_sin.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\k_tan.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_atan.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_copysign.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_cos.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_fabs.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_floor.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_scalbn.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_sin.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\libm\s_tan.c">
+      <Filter>Source Files\libm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\power\windows\SDL_syspower.c">
+      <Filter>Source Files\power\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\filesystem\windows\SDL_sysfilesystem.c">
+      <Filter>Source Files\filesystem\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_dinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_windowshaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\haptic\windows\SDL_xinputhaptic.c">
+      <Filter>Source Files\haptic\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsclipboard.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsevents.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsframebuffer.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowskeyboard.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsmessagebox.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsmodes.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsmouse.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsopengl.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsopengles.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsshape.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowsvideo.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\windows\SDL_windowswindow.c">
+      <Filter>Source Files\video\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\render\opengl\SDL_render_gl.c">
+      <Filter>Source Files\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\render\opengl\SDL_shaders_gl.c">
+      <Filter>Source Files\render\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\generic\SDL_syscond.c">
+      <Filter>Source Files\thread\generic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\audio\directsound\SDL_directsound.c">
+      <Filter>Source Files\audio\directsound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\audio\winmm\SDL_winmm.c">
+      <Filter>Source Files\audio\winmm</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

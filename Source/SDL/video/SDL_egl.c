@@ -56,8 +56,13 @@
 #define DEFAULT_EGL "libEGL.WindowsPhone.dll"
 #define DEFAULT_OGL_ES2 "libGLESv2.WindowsPhone.dll"
 #else
+#if WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
+#define DEFAULT_EGL "libEGL.WindowsDesktop.dll"
+#define DEFAULT_OGL_ES2 "libGLESv2.WindowsDesktop.dll"
+#else
 #define DEFAULT_EGL "libEGL.Windows.dll"
 #define DEFAULT_OGL_ES2 "libGLESv2.Windows.dll"
+#endif
 #endif
 
 #define DEFAULT_OGL_ES_PVR "libGLES_CM.dll"

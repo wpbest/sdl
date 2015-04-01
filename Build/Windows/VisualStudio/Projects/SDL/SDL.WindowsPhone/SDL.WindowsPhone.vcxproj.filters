@@ -1,5 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-	</ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c008bff8-4d8a-4bce-bdf9-cbc6f904dd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{8a3c516c-cb3a-4d3e-8083-75c5d3a406eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\xaudio2">
+      <UniqueIdentifier>{eac224ee-4746-4e69-979f-8165b09340a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{06ab5f18-5e4d-4e9c-8913-09e4f0538add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\winrt">
+      <UniqueIdentifier>{cb112fa8-3671-419d-b8a5-6af353b17a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video">
+      <UniqueIdentifier>{4a14da40-23f7-4efe-8f79-c352e4be86c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video\winrt">
+      <UniqueIdentifier>{5423494a-870d-4c36-9160-5029d95a5d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{3086ec58-8c54-4e3b-a2a2-d90e957b1232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\direct3d11">
+      <UniqueIdentifier>{06625d0b-71ee-4f50-8f26-2fec6df52d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{e63cf6c0-074e-4ad2-9d89-c20786295c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem\winrt">
+      <UniqueIdentifier>{483fa835-4f1d-48c3-8280-7015be81dc51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power">
+      <UniqueIdentifier>{8d91ca64-4300-4d93-932c-7c9da7770fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\power\winrt">
+      <UniqueIdentifier>{7a3f0eeb-78e9-4315-9d47-0bd77b1610f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread">
+      <UniqueIdentifier>{f3187500-fc59-4f52-965d-2f5508fa7a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\thread\stdcpp">
+      <UniqueIdentifier>{ef8e3631-9a08-4f1b-ae3e-7609b93ab611}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2_winrthelpers.cpp">
+      <Filter>Source Files\audio\xaudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtevents.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtkeyboard.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmessagebox.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmouse.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtopengles.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtpointerinput.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtvideo.cpp">
+      <Filter>Source Files\video\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\render\direct3d11\SDL_render_winrt.cpp">
+      <Filter>Source Files\render\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\filesystem\winrt\SDL_sysfilesystem.cpp">
+      <Filter>Source Files\filesystem\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\power\winrt\SDL_syspower.cpp">
+      <Filter>Source Files\power\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_common.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_direct3d.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_xaml.cpp">
+      <Filter>Source Files\core\winrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_syscond.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_sysmutex.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_systhread.cpp">
+      <Filter>Source Files\thread\stdcpp</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

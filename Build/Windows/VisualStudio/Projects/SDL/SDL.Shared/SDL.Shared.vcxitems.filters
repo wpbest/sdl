@@ -64,12 +64,6 @@
     <Filter Include="Source Files\thread">
       <UniqueIdentifier>{92127bac-e2f1-4b74-8c79-d3173f6aa113}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\filesystem">
-      <UniqueIdentifier>{70033d51-baf4-4d07-ac2a-0c96e51b4884}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\filesystem\winrt">
-      <UniqueIdentifier>{d6b520a3-0901-4503-bfed-6d6a74542693}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\haptic\dummy">
       <UniqueIdentifier>{3e960d94-c707-439a-bdd7-2d13c8913094}</UniqueIdentifier>
     </Filter>
@@ -81,12 +75,6 @@
     </Filter>
     <Filter Include="Source Files\loadso\windows">
       <UniqueIdentifier>{740857ab-7677-4f57-9c31-4884aa82fa2c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\thread\sdtcpp">
-      <UniqueIdentifier>{1fe18e47-5a7c-43f0-8b36-09f37792a12a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\power\winrt">
-      <UniqueIdentifier>{b60d64d6-e7bb-438f-9362-22add7ccae00}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\thread\generic">
       <UniqueIdentifier>{94d850b6-40a5-45d0-8390-b69dd34bc8de}</UniqueIdentifier>
@@ -103,14 +91,11 @@
     <Filter Include="Source Files\core\windows">
       <UniqueIdentifier>{33e12509-f7cd-4b7f-9c01-ad5c675bb1c9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\core\winrt">
-      <UniqueIdentifier>{61000abb-4b7f-4634-8539-a568b362499c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\video\winrt">
-      <UniqueIdentifier>{b3bcf393-9686-4a42-b004-f890993c9194}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\audio\xaudio2">
       <UniqueIdentifier>{e9fc803f-6b24-40e5-823a-b1824507db22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\direct3d">
+      <UniqueIdentifier>{75aa1ce5-2803-4a9d-943a-7ac0cc4b7b49}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -288,9 +273,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\software\SDL_render_sw.c">
       <Filter>Source Files\render\software</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\direct3d11\SDL_render_winrt.cpp">
-      <Filter>Source Files\render\direct3d11</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_RLEaccel.c">
       <Filter>Source Files\video</Filter>
     </ClCompile>
@@ -321,9 +303,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\SDL_surface.c">
       <Filter>Source Files\video</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\filesystem\winrt\SDL_sysfilesystem.cpp">
-      <Filter>Source Files\filesystem\winrt</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\haptic\dummy\SDL_syshaptic.c">
       <Filter>Source Files\haptic\dummy</Filter>
     </ClCompile>
@@ -333,20 +312,8 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\loadso\windows\SDL_sysloadso.c">
       <Filter>Source Files\loadso\windows</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_sysmutex.cpp">
-      <Filter>Source Files\thread\sdtcpp</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_syscond.cpp">
-      <Filter>Source Files\thread\sdtcpp</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\power\winrt\SDL_syspower.cpp">
-      <Filter>Source Files\power\winrt</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\generic\SDL_syssem.c">
       <Filter>Source Files\thread\generic</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\thread\stdcpp\SDL_systhread.cpp">
-      <Filter>Source Files\thread\sdtcpp</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\timer\windows\SDL_systimer.c">
       <Filter>Source Files\timer\windows</Filter>
@@ -375,40 +342,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\joystick\windows\SDL_windowsjoystick.c">
       <Filter>Source Files\joystick\windows</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_common.cpp">
-      <Filter>Source Files\core\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_direct3d.cpp">
-      <Filter>Source Files\core\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\winrt\SDL_winrtapp_xaml.cpp">
-      <Filter>Source Files\core\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtevents.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtkeyboard.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmessagebox.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtmouse.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtopengles.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtpointerinput.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\video\winrt\SDL_winrtvideo.cpp">
-      <Filter>Source Files\video\winrt</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2.c">
-      <Filter>Source Files\audio\xaudio2</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\audio\xaudio2\SDL_xaudio2_winrthelpers.cpp">
       <Filter>Source Files\audio\xaudio2</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\core\windows\SDL_xinput.c">
@@ -422,6 +356,9 @@
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\SDL_yuv_sw.c">
       <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\..\..\Source\SDL\render\direct3d\SDL_render_d3d.c">
+      <Filter>Source Files\render\direct3d</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
