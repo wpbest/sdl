@@ -334,6 +334,7 @@ HasExtension(const char *extension, const char *extensions)
 void
 WIN_GL_InitExtensions(_THIS)
 {
+
     const char *(WINAPI * wglGetExtensionsStringARB) (HDC) = 0;
     const char *extensions;
     HWND hwnd;
@@ -405,10 +406,12 @@ WIN_GL_InitExtensions(_THIS)
         _this->gl_data->wglSwapIntervalEXT = NULL;
         _this->gl_data->wglGetSwapIntervalEXT = NULL;
     }
-
+    /* WPB */
+    /* Set HAS_ANGLE_create_context_es2_profile */
+    _this->gl_data->HAS_ANGLE_create_context_es2_profile = SDL_TRUE;
     /* Check for WGL_EXT_create_context_es2_profile */
     _this->gl_data->HAS_WGL_EXT_create_context_es2_profile = SDL_FALSE;
-    if (HasExtension("WGL_EXT_create_context_es2_profile", extensions)) {
+    if (HasExtension("WGL_EXT_create_context_es2_profile", extensions) && !_this->gl_data->HAS_ANGLE_create_context_es2_profile) {
         _this->gl_data->HAS_WGL_EXT_create_context_es2_profile = SDL_TRUE;
     }
 
