@@ -780,11 +780,15 @@ main(int argc, char *argv[])
       return 1;
    }
 
+   SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_ES);
+   SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 2);
+   SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
+
    /* Initialize the window */
    if (native_window) {
       window = SDL_CreateWindowFrom(native_window);
    } else {
-      Uint32 window_flags = SDL_WINDOW_OPENGL;
+       Uint32 window_flags = SDL_WINDOW_OPENGL;
 #if __IPHONEOS__ || __ANDROID__ || __WINRT__
       window_flags |= SDL_WINDOW_FULLSCREEN_DESKTOP;
 #endif
@@ -795,10 +799,6 @@ main(int argc, char *argv[])
       SDL_Log("Unable to create window: %s", SDL_GetError());
       return 1;
    }
-   
-   SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_ES);
-   SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 2);
-   SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
    
    gl_context = SDL_GL_CreateContext(window);
    if (gl_context == NULL) {
