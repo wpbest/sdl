@@ -1,13 +1,12 @@
 # sdl
 SDL (Simple DirectMedia Layer) for Windows (WinRT), Windows Phone, and Windows Desktop
 
-Requirements:
+Requirements (Windows Desktop Only):
 
 DirectX Software Development Kit
 
 Download the complete DirectX SDK, which contains the DirectX Runtime and all DirectX software required to create DirectX compliant applications.
 Version: 9.29.1962
-
 
 Test Solutions:
 
