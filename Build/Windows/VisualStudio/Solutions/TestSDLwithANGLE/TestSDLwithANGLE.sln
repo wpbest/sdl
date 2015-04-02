@@ -110,7 +110,6 @@ Global
 		..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\angle_common\angle_common.Shared\angle_common.Shared.vcxitems*{b5276d22-7454-400a-8b40-f88a4fc719d8}*SharedItemsImports = 4
 		..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\preprocessor\preprocessor.Shared\preprocessor.Shared.vcxitems*{d36086fa-787f-4481-82bf-e90f604164c2}*SharedItemsImports = 9
 		..\..\Projects\TestSDLwithANGLE\TestSDLwithANGLE.Shared\TestSDLwithANGLE.Shared.vcxitems*{6f09b177-03eb-421f-9b17-2fb26b000259}*SharedItemsImports = 4
-		..\..\Projects\TestSDLwithANGLE\TestSDLwithANGLE.Shared\TestSDLwithANGLE.Shared.vcxitems*{9fc4097b-a9ce-4760-83f4-7d2781e489e6}*SharedItemsImports = 4
 		..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\libEGL\libEGL.Shared\libEGL.Shared.vcxitems*{7e84ead4-caff-4721-aa41-e30c9f139a97}*SharedItemsImports = 4
 		..\..\..\..\..\..\angle\Build\Windows\VisualStudio\Projects\ANGLE\libGLESv2\libGLESv2.Shared\libGLESv2.Shared.vcxitems*{0411c1f2-e7f6-4e37-b595-ba11417e2d84}*SharedItemsImports = 4
 		..\..\Projects\TestSDLwithANGLE\TestSDLwithANGLE.Shared\TestSDLwithANGLE.Shared.vcxitems*{0b3b7b4e-6921-4631-8fc0-3ed1928d3257}*SharedItemsImports = 4

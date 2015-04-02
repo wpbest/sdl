@@ -19,6 +19,7 @@
  *  3. This notice may not be removed or altered from any source distribution.
  */
 #include "../SDL_internal.h"
+#include "winapifamily.h"
 
 #if SDL_VIDEO_OPENGL_EGL
 
@@ -47,22 +48,20 @@
 
 #elif SDL_VIDEO_DRIVER_WINDOWS || SDL_VIDEO_DRIVER_WINRT
 /* EGL AND OpenGL ES support via ANGLE */
+
 /* WPB */
-/*
-#define DEFAULT_EGL "libEGL.dll"
-#define DEFAULT_OGL_ES2 "libGLESv2.dll"
-*/
-#if WINAPI_FAMILY == WINAPI_FAMILY_PHONE_APP
-#define DEFAULT_EGL "libEGL.WindowsPhone.dll"
-#define DEFAULT_OGL_ES2 "libGLESv2.WindowsPhone.dll"
-#else
-#if WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
+#if __WINDOWS__
 #define DEFAULT_EGL "libEGL.WindowsDesktop.dll"
 #define DEFAULT_OGL_ES2 "libGLESv2.WindowsDesktop.dll"
-#else
+#elif __WINDOWS_PHONE__
+#define DEFAULT_EGL "libEGL.WindowsPhone.dll"
+#define DEFAULT_OGL_ES2 "libGLESv2.WindowsPhone.dll"
+#elif __WINRT__
 #define DEFAULT_EGL "libEGL.Windows.dll"
 #define DEFAULT_OGL_ES2 "libGLESv2.Windows.dll"
-#endif
+#else
+#define DEFAULT_EGL "libEGL.dll"
+#define DEFAULT_OGL_ES2 "libGLESv2.dll"
 #endif
 
 #define DEFAULT_OGL_ES_PVR "libGLES_CM.dll"
@@ -189,13 +188,8 @@ SDL_EGL_LoadLibrary(_THIS, const char *egl_path, NativeDisplayType native_displa
     d3dcompiler = SDL_GetHint(SDL_HINT_VIDEO_WIN_D3DCOMPILER);
     if (!d3dcompiler) {
         if (WIN_IsWindowsVistaOrGreater()) {
-            /*
-            WPB
-            d3dcompiler = "d3dcompiler_46.dll";
-            */
             d3dcompiler = "d3dcompiler_47.dll";
-        }
-        else {
+        } else {
             d3dcompiler = "d3dcompiler_43.dll";
         }
     }
@@ -475,6 +469,7 @@ SDL_EGL_CreateContext(_THIS, EGLSurface egl_surface)
 #else /* EGL_KHR_create_context */
         context_attrib_list[0] = EGL_NONE;
 #endif /* EGL_KHR_create_context */
+        /*WPB*/
         egl_context = _this->egl_data->eglCreateContext(_this->egl_data->egl_display,
                                           _this->egl_data->egl_config,
                                           share_context, context_attrib_list);

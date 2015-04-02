@@ -124,7 +124,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -132,7 +132,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -140,7 +140,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -148,7 +148,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -156,7 +156,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -164,7 +164,7 @@
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
       <PrecompiledHeader />
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -189,9 +189,6 @@
     <ProjectReference Include="..\..\SDL\SDL.Windows\SDL.Windows.vcxproj">
       <Project>{6eec7359-ba8e-4130-b64d-fd4a58af3edb}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Source\TestSDLwithANGLE\SDL_winrt_main_NonXAML.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

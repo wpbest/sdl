@@ -122,6 +122,12 @@
 #if WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_DESKTOP)
 #undef __WINDOWS__
 #define __WINDOWS__   1
+/* WPB */
+#elif defined(WINAPI_FAMILY) && WINAPI_FAMILY == WINAPI_FAMILY_PHONE_APP
+#undef __WINDOWS_PHONE__
+#define __WINDOWS_PHONE__   1
+#undef __WINRT__
+#define __WINRT__ 1
 /* See if we're compiling for WinRT: */
 #elif WINAPI_FAMILY_PARTITION(WINAPI_PARTITION_APP)
 #undef __WINRT__

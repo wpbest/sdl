@@ -87,7 +87,7 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
     </ClCompile>
   </ItemDefinitionGroup>
@@ -95,7 +95,7 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
     </ClCompile>
   </ItemDefinitionGroup>
@@ -103,7 +103,7 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
     </ClCompile>
   </ItemDefinitionGroup>
@@ -111,7 +111,7 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\..\..\..\Include\SDL;..\..\..\..\..\..\Source\TestSDLwithANGLE;..\..\..\..\..\..\Source\SDL;%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
       <PrecompiledHeader />
     </ClCompile>
   </ItemDefinitionGroup>
@@ -138,9 +138,6 @@
     <ProjectReference Include="..\..\SDL\SDL.WindowsPhone\SDL.WindowsPhone.vcxproj">
       <Project>{adf41a72-8d5f-4082-8a82-55bbe7306d63}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\Source\TestSDLwithANGLE\SDL_winrt_main_NonXAML.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

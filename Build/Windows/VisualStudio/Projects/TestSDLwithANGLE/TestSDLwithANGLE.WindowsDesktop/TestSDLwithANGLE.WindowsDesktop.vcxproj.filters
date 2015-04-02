@@ -18,5 +18,8 @@
     <ClCompile Include="..\..\..\..\..\..\Source\SDL\main\windows\SDL_windows_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Source\TestSDLwithANGLE\sdl2gles2gears.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
