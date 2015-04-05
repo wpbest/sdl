@@ -1,12 +1,22 @@
 # sdl
-SDL (Simple DirectMedia Layer) for Windows (WinRT), Windows Phone, and Windows Desktop
+SDL (Simple DirectMedia Layer) for iOS, Android, Windows (WinRT), Windows Phone, and Windows Desktop
 
-Requirements (Windows Desktop Only):
+Requirements:
 
-DirectX Software Development Kit
+ANGLE (Almost Native Graphics Layer Engine)
 
-Download the complete DirectX SDK, which contains the DirectX Runtime and all DirectX software required to create DirectX compliant applications.
+https://github.com/wpbest/angle
+
+C:\git>git clone https://github.com/wpbest/angle
+
+C:\git>git clone https://github.com/wpbest/sdl
+
+DirectX Software Development Kit (Windows Desktop Only)
+
+Download the complete DirectX SDK from Microsoft, which contains the DirectX Runtime and all DirectX software required to create DirectX compliant applications.
 Version: 9.29.1962
+
+URL http://www.microsoft.com/en-us/download/details.aspx?id=6812
 
 Test Solutions:
 
